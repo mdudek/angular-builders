@@ -15,7 +15,7 @@
     ]
   },
   "resolutions": {
-    "@cypress/schematic/@angular-devkit/architect": ">=0.1600.0 < 0.1700.0",
+    "@cypress/schematic/@angular-devkit/architect": ">=0.1600.0 < 0.1700.1",
     "@cypress/schematic/@angular-devkit/core": "^16",
     "@cypress/schematic/@angular-devkit/schematics": "^16",
     "@cypress/schematic/@schematics/angular": "^16"
