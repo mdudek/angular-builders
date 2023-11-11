@@ -12,6 +12,7 @@ package
 
 **/schema.json
 *.js
+!dist/**
 !karma.conf.js
 !*webpack.config.js
 !*index-html.transform.js
