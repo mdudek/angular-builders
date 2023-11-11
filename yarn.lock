@@ -53,7 +53,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@angular-builders/jest@workspace:packages/jest"
   dependencies:
-    "@angular-devkit/architect": ^0.1700.0
+    "@angular-devkit/architect": ">=0.1700.0 < 0.1800.0"
     "@angular-devkit/core": ^17.0.0
     "@types/jest": ^29.5.1
     cpy-cli: ^5.0.0
@@ -89,7 +89,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@angular-devkit/architect@npm:0.1700.0, @angular-devkit/architect@npm:>=0.1700.0 < 0.1800.0, @angular-devkit/architect@npm:^0.1700.0":
+"@angular-devkit/architect@npm:0.1700.0, @angular-devkit/architect@npm:>=0.1700.0 < 0.1800.0":
   version: 0.1700.0
   resolution: "@angular-devkit/architect@npm:0.1700.0"
   dependencies:
@@ -252,7 +252,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/animations@npm:^17.0.2":
+"@angular/animations@npm:^17.0.0":
   version: 17.0.2
   resolution: "@angular/animations@npm:17.0.2"
   dependencies:
@@ -291,7 +291,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/common@npm:^17.0.2":
+"@angular/common@npm:^17.0.0":
   version: 17.0.2
   resolution: "@angular/common@npm:17.0.2"
   dependencies:
@@ -303,7 +303,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/compiler-cli@npm:^17.0.2":
+"@angular/compiler-cli@npm:^17.0.0":
   version: 17.0.2
   resolution: "@angular/compiler-cli@npm:17.0.2"
   dependencies:
@@ -326,7 +326,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/compiler@npm:^17.0.2":
+"@angular/compiler@npm:^17.0.0":
   version: 17.0.2
   resolution: "@angular/compiler@npm:17.0.2"
   dependencies:
@@ -340,7 +340,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/core@npm:^17.0.2":
+"@angular/core@npm:^17.0.0":
   version: 17.0.2
   resolution: "@angular/core@npm:17.0.2"
   dependencies:
@@ -352,7 +352,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/forms@npm:^17.0.2":
+"@angular/forms@npm:^17.0.0":
   version: 17.0.2
   resolution: "@angular/forms@npm:17.0.2"
   dependencies:
@@ -366,14 +366,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/language-service@npm:^17.0.2":
+"@angular/language-service@npm:^17.0.0":
   version: 17.0.2
   resolution: "@angular/language-service@npm:17.0.2"
   checksum: 53d2aec3e7e74850a6da21e7f9965312fad0df21d704f344fea2a7f75f69b7a8bc080dce30d298cc943ac8d5535638759c2cd8e08594f1c9a85d4a9ffec2cdc5
   languageName: node
   linkType: hard
 
-"@angular/platform-browser-dynamic@npm:^17.0.2":
+"@angular/platform-browser-dynamic@npm:^17.0.0":
   version: 17.0.2
   resolution: "@angular/platform-browser-dynamic@npm:17.0.2"
   dependencies:
@@ -387,7 +387,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/platform-browser@npm:^17.0.2":
+"@angular/platform-browser@npm:^17.0.0":
   version: 17.0.2
   resolution: "@angular/platform-browser@npm:17.0.2"
   dependencies:
@@ -403,7 +403,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/router@npm:^17.0.2":
+"@angular/router@npm:^17.0.0":
   version: 17.0.2
   resolution: "@angular/router@npm:17.0.2"
   dependencies:
@@ -9352,17 +9352,17 @@ __metadata:
   dependencies:
     "@angular-builders/custom-webpack": "workspace:*"
     "@angular-devkit/build-angular": ^17.0.0
-    "@angular/animations": ^17.0.2
+    "@angular/animations": ^17.0.0
     "@angular/cli": ^17.0.0
-    "@angular/common": ^17.0.2
-    "@angular/compiler": ^17.0.2
-    "@angular/compiler-cli": ^17.0.2
-    "@angular/core": ^17.0.2
-    "@angular/forms": ^17.0.2
-    "@angular/language-service": ^17.0.2
-    "@angular/platform-browser": ^17.0.2
-    "@angular/platform-browser-dynamic": ^17.0.2
-    "@angular/router": ^17.0.2
+    "@angular/common": ^17.0.0
+    "@angular/compiler": ^17.0.0
+    "@angular/compiler-cli": ^17.0.0
+    "@angular/core": ^17.0.0
+    "@angular/forms": ^17.0.0
+    "@angular/language-service": ^17.0.0
+    "@angular/platform-browser": ^17.0.0
+    "@angular/platform-browser-dynamic": ^17.0.0
+    "@angular/router": ^17.0.0
     "@types/jasmine": 5.1.0
     "@types/node": 18.18.6
     cypress: 12.17.4
@@ -13159,17 +13159,17 @@ __metadata:
   dependencies:
     "@angular-builders/jest": "workspace:*"
     "@angular-devkit/build-angular": ^17.0.0
-    "@angular/animations": ^17.0.2
+    "@angular/animations": ^17.0.0
     "@angular/cli": ^17.0.0
-    "@angular/common": ^17.0.2
-    "@angular/compiler": ^17.0.2
-    "@angular/compiler-cli": ^17.0.2
-    "@angular/core": ^17.0.2
-    "@angular/forms": ^17.0.2
-    "@angular/language-service": ^17.0.2
-    "@angular/platform-browser": ^17.0.2
-    "@angular/platform-browser-dynamic": ^17.0.2
-    "@angular/router": ^17.0.2
+    "@angular/common": ^17.0.0
+    "@angular/compiler": ^17.0.0
+    "@angular/compiler-cli": ^17.0.0
+    "@angular/core": ^17.0.0
+    "@angular/forms": ^17.0.0
+    "@angular/language-service": ^17.0.0
+    "@angular/platform-browser": ^17.0.0
+    "@angular/platform-browser-dynamic": ^17.0.0
+    "@angular/router": ^17.0.0
     "@types/jasmine": 5.1.0
     "@types/node": 18.18.6
     cypress: 12.17.4
@@ -15668,16 +15668,16 @@ __metadata:
   dependencies:
     "@angular-builders/custom-webpack": "workspace:*"
     "@angular-devkit/build-angular": ^17.0.0
-    "@angular/animations": ^17.0.2
+    "@angular/animations": ^17.0.0
     "@angular/cli": ^17.0.0
-    "@angular/common": ^17.0.2
-    "@angular/compiler": ^17.0.2
-    "@angular/compiler-cli": ^17.0.2
-    "@angular/core": ^17.0.2
-    "@angular/forms": ^17.0.2
-    "@angular/platform-browser": ^17.0.2
-    "@angular/platform-browser-dynamic": ^17.0.2
-    "@angular/router": ^17.0.2
+    "@angular/common": ^17.0.0
+    "@angular/compiler": ^17.0.0
+    "@angular/compiler-cli": ^17.0.0
+    "@angular/core": ^17.0.0
+    "@angular/forms": ^17.0.0
+    "@angular/platform-browser": ^17.0.0
+    "@angular/platform-browser-dynamic": ^17.0.0
+    "@angular/router": ^17.0.0
     "@cypress/schematic": 2.5.1
     "@types/jasmine": 5.1.0
     "@types/node": 18.18.6
@@ -15702,17 +15702,17 @@ __metadata:
   dependencies:
     "@angular-builders/custom-webpack": "workspace:*"
     "@angular-devkit/build-angular": ^17.0.0
-    "@angular/animations": ^17.0.2
+    "@angular/animations": ^17.0.0
     "@angular/cli": ^17.0.0
-    "@angular/common": ^17.0.2
-    "@angular/compiler": ^17.0.2
-    "@angular/compiler-cli": ^17.0.2
-    "@angular/core": ^17.0.2
-    "@angular/forms": ^17.0.2
-    "@angular/language-service": ^17.0.2
-    "@angular/platform-browser": ^17.0.2
-    "@angular/platform-browser-dynamic": ^17.0.2
-    "@angular/router": ^17.0.2
+    "@angular/common": ^17.0.0
+    "@angular/compiler": ^17.0.0
+    "@angular/compiler-cli": ^17.0.0
+    "@angular/core": ^17.0.0
+    "@angular/forms": ^17.0.0
+    "@angular/language-service": ^17.0.0
+    "@angular/platform-browser": ^17.0.0
+    "@angular/platform-browser-dynamic": ^17.0.0
+    "@angular/router": ^17.0.0
     "@types/jasmine": 5.1.0
     "@types/node": 18.18.6
     cypress: 12.17.4
@@ -16141,17 +16141,17 @@ __metadata:
   dependencies:
     "@angular-builders/jest": "workspace:*"
     "@angular-devkit/build-angular": ^17.0.0
-    "@angular/animations": ^17.0.2
+    "@angular/animations": ^17.0.0
     "@angular/cli": ^17.0.0
-    "@angular/common": ^17.0.2
-    "@angular/compiler": ^17.0.2
-    "@angular/compiler-cli": ^17.0.2
-    "@angular/core": ^17.0.2
-    "@angular/forms": ^17.0.2
-    "@angular/language-service": ^17.0.2
-    "@angular/platform-browser": ^17.0.2
-    "@angular/platform-browser-dynamic": ^17.0.2
-    "@angular/router": ^17.0.2
+    "@angular/common": ^17.0.0
+    "@angular/compiler": ^17.0.0
+    "@angular/compiler-cli": ^17.0.0
+    "@angular/core": ^17.0.0
+    "@angular/forms": ^17.0.0
+    "@angular/language-service": ^17.0.0
+    "@angular/platform-browser": ^17.0.0
+    "@angular/platform-browser-dynamic": ^17.0.0
+    "@angular/router": ^17.0.0
     "@types/jasmine": 5.1.0
     "@types/node": 18.18.6
     cypress: 12.17.4
@@ -17128,17 +17128,17 @@ __metadata:
   dependencies:
     "@angular-builders/timestamp": "workspace:*"
     "@angular-devkit/build-angular": ^17.0.0
-    "@angular/animations": ^17.0.2
+    "@angular/animations": ^17.0.0
     "@angular/cli": ^17.0.0
-    "@angular/common": ^17.0.2
-    "@angular/compiler": ^17.0.2
-    "@angular/compiler-cli": ^17.0.2
-    "@angular/core": ^17.0.2
-    "@angular/forms": ^17.0.2
-    "@angular/language-service": ^17.0.2
-    "@angular/platform-browser": ^17.0.2
-    "@angular/platform-browser-dynamic": ^17.0.2
-    "@angular/router": ^17.0.2
+    "@angular/common": ^17.0.0
+    "@angular/compiler": ^17.0.0
+    "@angular/compiler-cli": ^17.0.0
+    "@angular/core": ^17.0.0
+    "@angular/forms": ^17.0.0
+    "@angular/language-service": ^17.0.0
+    "@angular/platform-browser": ^17.0.0
+    "@angular/platform-browser-dynamic": ^17.0.0
+    "@angular/router": ^17.0.0
     "@cypress/schematic": 2.5.1
     "@types/jasmine": 5.1.0
     "@types/node": 18.18.6
